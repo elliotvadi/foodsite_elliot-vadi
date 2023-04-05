@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="description" content="baltic restaurant">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Elliot Vadi">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <head>
+        <link rel="stylesheet" href="/style/style4.css">
+    </head>
+    <body>
+        <div class="content" id="contentMyOrder">
+            <div class="navbar">
+                <div class="navbar-flex">
+                    <div class="navbar-item-1">
+                        <p>
+                            <a href=index.html>Baltica</a>
+                        </p>
+                    </div>
+                    <div class="navbar-item-2">
+                        <p>
+                            <a href=about.html>Om oss</a>
+                        </p>
+                    </div>
+                    <div class="navbar-item-3">
+                        <p>
+                            <a href="menu.html">Meny</a>
+                        </p>
+                    </div>
+                    <div class="navbar-item-4">
+                        <p>
+                            <a href="contact.html">Kontakt</a>
+                        </p>
+                    </div>
+                    <div class="navbar-item-5">
+                        <a href="my-order.html">
+                            <img src="/img/shopping-cart.png" width="90" height="90" id="shopping-cart">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-content">
+                <div class="menu-header" id="myOrder-header">
+                    <p>
+                        Din beställning
+                    </p>
+                </div>
+                <div class="myOrderHorizLine" id="myOrderHorizLine-1"></div>
+                <div class="orderContentOverlay" id="orderContentOverlay">
+                    <div class="order1Main">
+                        <div class="orderItemName" id="orderItem1">
+                            Piradzini
+                        </div>
+                        <div class="orderItemEdit">
+                            <span class="orderItemEditPencil">
+                                <img src="\img\pencil.png" width="16" height="16"> 
+                            </span>
+                        </div>
+                        <div class="orderItemDelete">
+                            <span class="orderItemDeleteCross">
+                                <img src="\img\cross.png" width="24" height="24">
+                            </span>
+                        </div>
+                        <div class="orderItemPrice" id="orderItemPrice-1">
+                            80 kr
+                        </div>
+                    </div>
+                    <div class="order1Detail">
+                        <div class="orderAmountHeader" id="order1AmountHeader">
+                            Antal
+                        </div>
+                        <div class="orderAmount" id="order1Amount">
+                            6
+                        </div>
+                        <div class="orderAdditiveHeader" id="order1AdditiveHeader">
+                            Fyllning
+                        </div>
+                        <div class="orderAdditive" id="order1Additive">
+                            Fläsk, lök, kryddor
+                        </div>
+                    </div>
+                    <div class="myOrderHorizLine" id="myOrderHorizLine-2"></div>
+                    <div class="orderVAT">
+                        <div class="orderVatHeader" id="orderVatHeader">
+                            Moms (25%):
+                        </div>
+                        <div class="orderVatTotal" id="orderVatTotal">
+                            20 kr
+                        </div>
+                    </div>
+                    <div class="myOrderHorizLine" id="myOrderHorizLine-3"></div>
+                        <div class="orderTotalPricingBG">
+                            <div class="orderTotalPricingTxt">
+                                Totalt:
+                            </div>
+                            <div class="orderTotalPricing">
+                                100 kr
+                            </div>
+                        </div>
+                    </div>
+                    <div class="myOrderHorizLine" id="myOrderHorizLine-4"></div>
+                </div>
+                <div class="orderPaymentForm">
+                    <form action="#">
+                        <br>
+                        <br>
+                        <label for="myOrderFname">Förnamn: </label>
+                        <br>
+                        <input type="text" id="myOrderFname" name="myOrderFname">
+                        <br>
+                        <br>
+                        <label for="myOrderLname">Efternamn: </label>
+                        <br>
+                        <input type="text" id="myOrderLname" name="myOrderLname">
+                        <br>
+                        <br>
+                        <label for="myOrderAddress">Adress: </label>
+                        <br>
+                        <input type="text" id="myOrderAddress" name="myOrderAddress">
+                        <br>
+                        <br>
+                        <label for="myOrderAddress2">Adress, rad 2: </label>
+                        <br>
+                        <input type="text" id="myOrderAddress2" name="myOrderAddress2">
+                        <br>
+                        <br>
+                        <label for="myOrderCardNumber">Kortnummer: </label>
+                        <br>
+                        <input type="text" id="myOrderCardNumber" name="myOrderCardNumber">
+                        <br>
+                        <br>
+                        <label for="myOrderCVC">CVC: </label>
+                        <br>
+                        <input type="text" id="myOrderCVC" name="myOrderCVC">
+                        <br>
+                        <br>
+                        <label for="myOrderPhoneNumber">Telefonnummer: </label>
+                        <br>
+                        <input type="text" id="myOrderPhoneNumber" name="myOrderPhoneNumber">
+                        <span class="myOrderPayButton">
+                            <button type="submit" id="myOrderPayButton">Betala</button>
+                        </span>
+
+                    </form>
+                </div>
+                <div class="myOrderImage"></div>
+            </div>
+            <footer>
+                <div class="footer" id="footerMyOrder">
+                    <div class="copyright">
+                        <p>Copyright Baltica 2022-2023</p>
+                    </div>
+                    <div class="search-container">
+                        <form action="#">
+                            <input type="text" placeholder="Sök: " name="search">
+                            <button type="submit">&#x1F50D</button> 
+                        </form>
+                    </div>
+                </div>
+            </footer>   
+        </div>
+    </bdoy>
+</html>
